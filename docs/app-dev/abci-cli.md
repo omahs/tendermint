@@ -38,7 +38,7 @@ Available Commands:
   help        Help about any command
   info        Get some info about the application
   query       Query the application state
-  set_option  Set an options on the application
+  set_option  Set an option on the application
 
 Flags:
       --abci string      socket or grpc (default "socket")
@@ -315,7 +315,7 @@ In another window, start the `abci-cli console`:
 ```
 
 This is a very simple application, but between `counter` and `kvstore`,
-its easy to see how you can build out arbitrary application states on
+it's easy to see how you can build out arbitrary application states on
 top of the ABCI. [Hyperledger's
 Burrow](https://github.com/hyperledger/burrow) also runs atop ABCI,
 bringing with it Ethereum-like accounts, the Ethereum virtual-machine,
@@ -327,7 +327,7 @@ application easily in any language.
 We have implemented the counter in a number of languages [see the
 example directory](https://github.com/tendermint/tendermint/tree/v0.34.x/abci/example).
 
-To run the Node.js version, fist download & install [the Javascript ABCI server](https://github.com/tendermint/js-abci):
+To run the Node.js version, first download & install [the Javascript ABCI server](https://github.com/tendermint/js-abci):
 
 ```sh
 git clone https://github.com/tendermint/js-abci.git
